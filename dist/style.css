@@ -1,0 +1,36 @@
+header {
+    background-color: black;
+    color: white;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.employee-card {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 2%;
+}
+
+.card-header {
+    background-color: blue;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.employee-info {
+    text-align: center;
+}
