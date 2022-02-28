@@ -1,11 +1,19 @@
 const Employee = require("../lib/Employee");
 
-test('')
+test('Can set name correctly', () => {
+    const testName = 'Bob';
+    const testEmployee = new Employee('Bob', 1, 'test@email.com');
+    expect(testEmployee.name).toBe(testName);
+});
 
+test('Can set ID correctly', () => {
+    const testId = 1;
+    const testEmployee = new Employee('Bob', testId, 'test@email.com');
+    expect(testEmployee.id).toBe(testId);
+});
 
-
-// const manager = new Manager('Mike','mike@gmail.com','','');
-// test('adds 1 + 2 to equal 3', () => {
-//     expect(manager.getName()).toBe('abc');
-//   });
-  
+test('Can set email correctly', () => {
+    const testEmail = 'test@email.com';
+    const testEmployee = new Employee('Bob', 1, testEmail);
+    expect(testEmployee.email).toBe(testEmail);
+});
