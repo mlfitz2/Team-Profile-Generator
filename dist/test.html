@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Team Roster</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -14,15 +14,15 @@
     <main>
         <div class="employee-card">
             <div class="card-header">
-                <h2 class="name"">Name</h2>
-                <h3 class="title">Title</h3>
+                <h2 class="name"">${name}</h2>
+                <h3 class="title">${title}</h3>
             </div>
             <div class="employee-info">
-                <p class="id">123</p>
-                <p class="email"><a href="mailto: ${email}"></a></p>
-                <p class="office">Office Number: 12</p>
+                <p class="id">ID: ${id}</p>
+                <p class="email"><a href="mailto: ${email}">Email: ${email}</a></p>
+                <p class="office">Office Number: ${officeNumber}</p>
                 <p class="github"><a href="http://www.github.com/${github}">GitHub:</a></p>
-                <p class="school">School:</p>
+                <p class="school">School: ${school}</p>
             </div>
         </div>
     </main>

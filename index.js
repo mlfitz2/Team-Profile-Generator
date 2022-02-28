@@ -1,8 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const Manager = require('./lib/Manager');
-const Engineer = require('./lib/Engineer');
-const Intern = require('./lib/Intern');
+const Manager = require('./lib/Manager.js');
+const Engineer = require('./lib/Engineer.js');
+const Intern = require('./lib/Intern.js');
 
 const teamArray = [];
 
@@ -122,7 +122,23 @@ async function menu() {
 }
 
 async function buildTeam() {
+let html = '<!DOCTYPE html><html lang="en"><head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Team Roster</title> <link rel="stylesheet" href="./style.css"></head><body> <header> <h1>Staff Roster</h1> </header> <main>';
+    teamArray.forEach(item =>{
 
+      html += item.printHtml();
+    });
+
+    html += " </main></body> </html>";
+    
+ 
+fs.writeFileSync("./dist/MyTeam.html",html);
 }
 
 addManager();
+/*
+ teamArray.push(new Manager('tes','test','test','test'));
+ 
+ teamArray.push(new Intern('tes','test','test','test'));
+ 
+ teamArray.push(new Engineer('tes','test','test','test'));
+ buildTeam();*/
