@@ -130,15 +130,8 @@ let html = '<!DOCTYPE html><html lang="en"><head> <meta charset="UTF-8"> <meta h
 
     html += " </main></body> </html>";
     
- 
+ console.log('You can now review the file of your team\'s roster.')
 fs.writeFileSync("./dist/MyTeam.html",html);
 }
 
 addManager();
-/*
- teamArray.push(new Manager('tes','test','test','test'));
- 
- teamArray.push(new Intern('tes','test','test','test'));
- 
- teamArray.push(new Engineer('tes','test','test','test'));
- buildTeam();*/
