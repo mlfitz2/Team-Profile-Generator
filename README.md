@@ -8,5 +8,5 @@ The user follows prompts in the console to answer the questions in order to prov
 
 Additionally, the "Tests" folder contains files that allow for the functionality of each role, and the Employee class in general, to be tested to ensure they will work properly. 
 
-![Demo video of user input and HTML generation](./Videos/user-input.mp4)
-![Demo video of tests running successfully](./Videos/tests.mp4)
+![Demo video of user input and HTML generation](./Videos/user-input.gif)
+![Demo video of tests running successfully](./Videos/tests.gif)
