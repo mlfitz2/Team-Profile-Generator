@@ -10,4 +10,4 @@ Additionally, the "Tests" folder contains files that allow for the functionality
 
 https://user-images.githubusercontent.com/95000888/156279626-1d20f64b-8824-43b6-9d9a-b2d4af324988.mp4
 
-![user-input](https://user-images.githubusercontent.com/95000888/156279647-ffd10dd0-1db0-49c4-8bd2-c54f9f78a25d.gif)
+https://user-images.githubusercontent.com/95000888/156280376-d7c40704-ecd0-469e-a8cf-64bd1556d90a.mp4
